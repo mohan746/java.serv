@@ -1,1 +1,35 @@
+“Clean code always looks like it was written by someone who cares.” — Robert C. Martin
 
+12.
+
+“Simplicity is prerequisite for reliability.” — Edsger W. Dijkstra
+
+13.
+
+“If you’re good at the debugger it means you spent a lot of time debugging. I don’t want you to be good at the debugger.” — Robert C. Martin
+
+14.
+
+“Clean code is not written by following a set of rules. You don’t become a software craftsman by learning a list of heuristics. Professionalism and craftsmanship come from values that drive disciplines.” — Robert C. Martin
+
+15.
+
+“There are two parts to learning craftsmanship: knowledge and work. You must gain the knowledge of principles, patterns, practices, and heuristics that a craftsman knows, and you must also grind that knowledge into your fingers, eyes, and gut by working hard and practicing.” — Robert C. Martin
+
+
+Source Giphy
+16.
+
+“Your obligation is that of active participation. You should not act as knowledge-absorbing sponges, but as whetstones on which we can all sharpen our wits.” — Edsger W. Dijkstra
+
+17.
+
+“Practice, Practice, Practice! Musicians don’t only play when they are on stage in front of an audience.”— Michael Toppa
+
+18.
+
+“You are responsible for the quality of your code. Not your client. Not your boss. […] You don’t go to the doctor and say: You know what doc? I’m in a hurry, why won’t you skip washing your hands?”— Michael Toppa
+
+These last few quotes talk about professionalism and responsibility; they go hand in hand. Mastering the field of your profession requires a great deal of dedication. You read, you research, you learn and you practice, over and over again. But first, you must take responsibility for your work and also for the people you work with. Part of becoming a true craftsman is not only keeping all that you’ve learned to yourself but also teaching others and helping them grow.
+
+Get Ittai Yam’s sto
