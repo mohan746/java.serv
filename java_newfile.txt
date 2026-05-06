@@ -1,61 +1,27 @@
-// express module import kar rahe hain (backend framework)
-const express = require('express');
 
-// express app create kar rahe hain
-const app = express();
+import java.util.Scanner;
 
-// server kis port par chalega
-const PORT = 3000;
+public class PrimeCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        boolean isPrime = true;
 
-// middleware jo JSON data handle karta hai
-app.use(express.json());
+        if (num <= 1) {
+            isPrime = false;
+        } else {
+            for (int i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+        }
 
-// root route ("/") define kar rahe hain
-app.get('/', (req, res) => {
-    // browser ko HTML response bhej rahe hain
-    res.send(`
-        <html>
-            <head>
-                <title>My App</title>
-            </head>
-            <body>
-                <h1>Simple App</h1>
-
-                <!-- button click par function call hoga -->
-                <button onclick="getMessage()">Get Message</button>
-
-                <!-- yaha output show hoga -->
-                <p id="output"></p>
-
-                <script>
-                    // async function jo API call karega
-                    async function getMessage() {
-
-                        // server ke API endpoint ko call kar rahe hain
-                        const res = await fetch('/api/message');
-
-                        // response ko JSON me convert kar rahe hain
-                        const data = await res.json();
-
-                        // HTML me message show kar rahe hain
-                        document.getElementById('output').innerText = data.message;
-                    }
-                </script>
-            </body>
-        </html>
-    `);
-});
-
-// API route jo data return karega
-app.get('/api/message', (req, res) => {
-
-    // JSON response bhej rahe hain
-    res.json({ message: "Hello from server 🚀" });
-});
-
-// server start kar rahe hain
-app.listen(PORT, () => {
-
-    // console me message print hoga
-    console.log(`Server running on http://localhost:${PORT}`);
-});
+        if (isPrime)
+            System.out.println(num + " is a prime number.");
+        else
+            System.out.println(num + " is not a prime number.");
+    }
+}
